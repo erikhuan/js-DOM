@@ -74,16 +74,19 @@ aliasParent.appendChild(divAlias);
 
 var rows = document.getElementsByClassName('row');
 
+var images = document.getElementsByTagName('img');
+images[8].src = 'https://pbs.twimg.com/profile_images/899944600172863488/NKJJ6oit.jpg';
+
 var myName = document.createElement('div');
 myName.id = 'name9';
-myName.innerHTML = 'Erik';
+myName.innerHTML = 'HeiMao';
 
 var myPos = document.createElement('div');
 myPos.id = 'position9';
 myPos.innerHTML = 'Upcoming Programmer';
 
 var myDescription = document.createElement('div');
-myDescription.innerHTML = 'Mysterious Gray Blob';
+myDescription.innerHTML = 'Purple Cat';
 
 var myQuote = document.createElement('div');
 myQuote.innerHTML = '"Calm down and chill out."';
