@@ -33,13 +33,13 @@ alias3.innerHTML = 'Concatenation';
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
 var profiles = document.getElementsByClassName('profile');
-profiles[0].innerHTML = '-insert lyrics-';
+profiles[0].innerHTML = 'Bathing in the purple rain';
 
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-profiles[1].innerHTML = '-insert quote-';
+profiles[1].innerHTML = "Don't think, feel";
 
 /*6. Samuel L Jackson
 
